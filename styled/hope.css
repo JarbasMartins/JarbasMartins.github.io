@@ -1,0 +1,33 @@
+.hope {
+    height: 400px;
+    display: flex;
+    color: black;
+    width: 70%;
+    margin-top: 100px;
+    font-family: "Quicksand", serif;
+    margin-left: 100px;
+}
+
+.hope-left {
+    flex: 1;
+}
+
+.hope-title {
+    font-size: 4rem;
+}
+
+.hope-right {
+    flex: 1;
+    margin-left: 100px;
+}
+
+.hope-items {
+    font-size: 2rem;
+    padding-block: 20px;
+}
+
+.hope-line {
+    height: 2px;
+    width: 30vw;
+    background-color: rgb(183, 181, 181);
+}

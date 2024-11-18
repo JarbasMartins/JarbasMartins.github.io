@@ -1,0 +1,44 @@
+.main,
+.main-two {
+    color: black;
+    font-family: "Quicksand", sans-serif;
+    display: flex;
+    height: 400px;
+}
+
+.main-left,
+.main-left_two {
+    flex: 1;
+}
+.main-left__subtitle {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
+
+.main-left__title {
+    font-size: 1.9rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding-block: 10px;
+}
+
+.main-left__description {
+    font-weight: 500;
+    max-width: 70ch;
+}
+
+.main-right,
+.main-right-3 {
+    flex: 1;
+}
+
+.main-right_img {
+    height: 220px;
+    width: 350px;
+    margin-left: 80px;
+}
+
+.main-right-3 {
+    margin-bottom: 50px;
+}
