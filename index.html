@@ -212,6 +212,67 @@
             </div>
         </section>
 
+        <main class="invest">
+            <div class="invest-title">
+                A importância do investimento inteligente para alcançar
+                segurança financeira e prosperidade.
+            </div>
+            <div class="invest-description">
+                Os investimentos são um tipo de estratégia que oferece uma série
+                de benefícios, como o poder dos juros compostos, vantagens
+                fiscais e economia de custos. Quando pensamos em objetivos de
+                longo prazo, como a aposentadoria, é essencial ter um plano
+                estruturado para garantir que seu dinheiro cresça ao longo do
+                tempo. Existem vários locais que você pode investir, Tesouro
+                Direto, Selic, CDB's, LCI e LCA, ações, dentre muitos outros
+                tipos.
+            </div>
+        </main>
+
+        <div class="child">
+            <div class="child-title">Simulador de Investimentos</div>
+
+            <label for="investimento">Escolha o tipo de investimento</label>
+            <select id="investimento">
+                <option value="selic">Selic</option>
+                <option value="tesouroPrefixado">Tesouro Prefixado</option>
+                <option value="cdb">CDB</option>
+            </select>
+
+            <label for="valorInicial">Valor Inicial</label>
+            <input
+                type="number"
+                id="valorInicial"
+                placeholder="Ex: 1000"
+                required
+            />
+
+            <label for="aporteMensal">Aporte Mensal</label>
+            <input
+                type="number"
+                id="aporteMensal"
+                placeholder="Ex: 200"
+                required
+            />
+
+            <label for="tempoMeses">Tempo em Meses</label>
+            <input
+                type="number"
+                id="tempoMeses"
+                placeholder="Ex: 12"
+                required
+            />
+
+            <button class="child-btn" onclick="simularInvestimento()">
+                Simular
+            </button>
+
+            <h2>RESULTADO</h2>
+            <p id="resultado"></p>
+        </div>
+
         <footer>© 2024</footer>
+
+        <script src="index.js"></script>
     </body>
 </html>
