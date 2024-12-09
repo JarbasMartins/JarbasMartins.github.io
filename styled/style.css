@@ -68,15 +68,6 @@ header {
     color: var(--main-color);
 }
 
-.wpp {
-    height: 25px;
-    width: 25px;
-}
-
-.wpp:hover {
-    opacity: 0.7;
-}
-
 section {
     padding: 70px 17% 60px;
 }
