@@ -68,6 +68,15 @@ header {
     color: var(--main-color);
 }
 
+.wpp {
+    height: 25px;
+    width: 25px;
+}
+
+.wpp:hover {
+    opacity: 0.7;
+}
+
 section {
     padding: 70px 17% 60px;
 }
@@ -137,6 +146,24 @@ section {
     max-width: 65ch;
 }
 
+.inv-info {
+    font-size: 1em;
+    color: #555;
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.inv-info p {
+    margin: 0;
+}
+
+.inv-info strong {
+    color: #4caf50;
+}
+
 footer {
     height: 70px;
     background-color: black;
@@ -203,6 +230,14 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    .logo {
+        font-size: 17px;
+    }
+
+    .wpp {
+        height: 20px;
+        width: 20px;
+    }
     section {
         padding: 30px 12% 20px;
     }

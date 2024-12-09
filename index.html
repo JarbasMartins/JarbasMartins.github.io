@@ -21,10 +21,24 @@
             rel="stylesheet"
         />
         <title>Educação Financeira</title>
+        <link
+            rel="shortcut icon"
+            href="elementos/agenda2030-removebg-preview.png"
+            type="image/x-icon"
+        />
     </head>
     <body>
         <header>
             <div class="logo">Educação financeira</div>
+
+            <ul class="navbar">
+                <a href="https://wa.me/984319242"
+                    ><img
+                        class="wpp"
+                        src="elementos/WhatsApp.svg-removebg-preview.png"
+                        alt=""
+                /></a>
+            </ul>
         </header>
 
         <!-- inicio da pagina -->
@@ -187,7 +201,11 @@
             </div>
 
             <div class="core-right">
-                <img src="elementos/agenda2030-removebg-preview.png" alt="" />
+                <img
+                    class="pre"
+                    src="elementos/agenda2030-removebg-preview.png"
+                    alt=""
+                />
             </div>
         </div>
 
@@ -233,11 +251,18 @@
             <div class="child-title">Simulador de Investimentos</div>
 
             <label for="investimento">Escolha o tipo de investimento</label>
-            <select id="investimento">
+            <select id="investimento" onchange="showInvestmentInfo()">
                 <option value="selic">Selic</option>
                 <option value="tesouroPrefixado">Tesouro Prefixado</option>
                 <option value="cdb">CDB</option>
             </select>
+
+            <div class="inv-info" id="invDescription">
+                <p><strong>Descrição do investimento:</strong></p>
+                <p>
+                    Escolha um tipo de investimento acima para ver a descrição.
+                </p>
+            </div>
 
             <label for="valorInicial">Valor Inicial</label>
             <input
